@@ -1,9 +1,4 @@
-#Promedio Final()
-#Entada de datos
-  
 promedio = float("input"Ingrese promedio final:")
-
-#Cuerpo
 
   If promedio >= 7: 
     Print("Aprueba")
