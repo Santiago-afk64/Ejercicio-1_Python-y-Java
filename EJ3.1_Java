@@ -1,1 +1,19 @@
+import java.util.Scanner;
 
+public class SumaHastaCero {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int suma = 0;
+
+        System.out.print("Ingrese un número (0 para terminar): ");
+        int n = sc.nextInt();
+
+        while (n != 0) {
+            suma += n;
+            System.out.print("Ingrese otro número (0 para terminar): ");
+            n = sc.nextInt();
+        }
+
+        System.out.println("La suma final es: " + suma);
+    }
+}
