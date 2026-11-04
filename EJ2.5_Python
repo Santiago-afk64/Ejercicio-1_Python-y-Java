@@ -1,11 +1,6 @@
-#Menor_tres
-#Entrada
-
 n1 = float(input("Ingrese el numero 1:"))
 n2 = float(input("Ingrese el numero 2:"))
 n3 = float(input("Ingrese el numero 3:"))
-
-#Calculo
 
 If n1 < n2 y n1 < n3:
   Print(f"El numero menor es:{n1:.2f}")
@@ -13,4 +8,3 @@ If n1 < n2 y n1 < n3:
       Print(f"El numero menor es:{n2:.2f}")
     else
       Print(f"El numero menor es:{n3:.2f}")
-    
